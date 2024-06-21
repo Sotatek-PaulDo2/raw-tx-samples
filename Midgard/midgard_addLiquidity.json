@@ -1,0 +1,27 @@
+{
+  "date": "1718331435990591069",
+  "height": "16395937",
+  "in": [
+      {
+          "address": "",
+          "coins": [
+              {
+                  "amount": "71530",
+                  "asset": "AVAX.USDT-0X9702230A8EA53601F5CD2DC00FDBC13D4DF4A8C7"
+              }
+          ],
+          "txID": "347A954188E48EF3A38AF1F21E7E85967C201C5927793407C6D55DA0D2C6FF91"
+      }
+  ],
+  "metadata": {
+      "addLiquidity": {
+          "liquidityUnits": "6359"
+      }
+  },
+  "out": [],
+  "pools": [
+      "AVAX.USDT-0X9702230A8EA53601F5CD2DC00FDBC13D4DF4A8C7"
+  ],
+  "status": "success",
+  "type": "addLiquidity"
+}

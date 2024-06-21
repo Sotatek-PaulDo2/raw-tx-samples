@@ -1,0 +1,89 @@
+{
+  "block_signed_at": "2024-06-05T11:40:40Z",
+  "block_height": 120489658,
+  "block_hash": "0xbe7955f4d80a98a2821b8d65a6655ba5bff49745273ad402de396b86d3b32858",
+  "tx_hash": "0x37eb3d67704afc456c445e2e108ecef2b7e520b56460270c9962967d868484a4",
+  "tx_offset": 0,
+  "successful": true,
+  "miner_address": "0x0000000000000000000000000000000000000000",
+  "from_address": "0x4485dd0a63c80b3a4fd60a0d587682a697e31e3d",
+  "from_address_label": null,
+  "to_address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+  "to_address_label": null,
+  "value": "0",
+  "value_quote": 0.0,
+  "pretty_value_quote": "$0.00",
+  "gas_metadata": {
+    "contract_decimals": 18,
+    "contract_name": "Ethereum",
+    "contract_ticker_symbol": "ETH",
+    "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "supports_erc": [],
+    "logo_url": "https://www.datocms-assets.com/86369/1669933298-aurora.svg"
+  },
+  "gas_offered": 61642,
+  "gas_spent": 46232,
+  "gas_price": 70000000,
+  "fees_paid": "3236240000000",
+  "gas_quote": 0.012310432066385543,
+  "pretty_gas_quote": "$0.01",
+  "gas_quote_rate": 3803.9305077452673,
+  "explorers": [
+    {
+      "label": null,
+      "url": "https://aurorascan.dev/tx/0x37eb3d67704afc456c445e2e108ecef2b7e520b56460270c9962967d868484a4"
+    }
+  ],
+  "log_events": [
+    {
+      "block_signed_at": "2024-06-05T11:40:40Z",
+      "block_height": 120489658,
+      "tx_offset": 0,
+      "log_offset": 0,
+      "tx_hash": "0x37eb3d67704afc456c445e2e108ecef2b7e520b56460270c9962967d868484a4",
+      "raw_log_topics": [
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "0x0000000000000000000000004485dd0a63c80b3a4fd60a0d587682a697e31e3d",
+        "0x000000000000000000000000111111125421ca6dc452d289314280a0f8842a65"
+      ],
+      "sender_contract_decimals": 6,
+      "sender_name": "USD Coin",
+      "sender_contract_ticker_symbol": "USDC",
+      "sender_address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+      "sender_address_label": null,
+      "sender_logo_url": "https://logos.covalenthq.com/tokens/1313161554/0xb12bfca5a55806aaf64e99521918a4bf0fc40802.png",
+      "supports_erc": [
+        "erc20"
+      ],
+      "sender_factory_address": null,
+      "raw_log_data": "0x000000000000000000000000000000000000000000000000000000000000008d",
+      "decoded": {
+        "name": "Approval",
+        "signature": "Approval(indexed address owner, indexed address spender, uint256 value)",
+        "params": [
+          {
+            "name": "owner",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0x4485dd0a63c80b3a4fd60a0d587682a697e31e3d"
+          },
+          {
+            "name": "spender",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0x111111125421ca6dc452d289314280a0f8842a65"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "indexed": false,
+            "decoded": true,
+            "value": "141"
+          }
+        ]
+      }
+    }
+  ]
+}

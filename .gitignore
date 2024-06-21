@@ -1,0 +1,6 @@
+*.csv
+.vscode
+.mypy_cache
+__pycache__
+postgres
+.DS_Store

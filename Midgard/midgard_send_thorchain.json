@@ -1,0 +1,42 @@
+{
+  "date": "1718339091049668140",
+  "height": "16397204",
+  "in": [
+      {
+          "address": "thor17hwqt302e5f2xm4h95ma8wuggqkvfzgvsnh5z9",
+          "coins": [
+              {
+                  "amount": "1439503131214",
+                  "asset": "THOR.RUNE"
+              }
+          ],
+          "txID": "1484A431D7B47C242D9CDC4145F741E263E18F4204EBD5B362E8019A3B7CAC70"
+      }
+  ],
+  "metadata": {
+      "send": {
+          "memo": "101113080",
+          "networkFees": [
+              {
+                  "amount": "20000000",
+                  "asset": "THOR.RUNE"
+              }
+          ]
+      }
+  },
+  "out": [
+      {
+          "address": "thor1uz4fpyd5f5d6p9pzk8lxyj4qxnwq6f9utg0e7k",
+          "coins": [
+              {
+                  "amount": "1439503131214",
+                  "asset": "THOR.RUNE"
+              }
+          ],
+          "txID": "1484A431D7B47C242D9CDC4145F741E263E18F4204EBD5B362E8019A3B7CAC70"
+      }
+  ],
+  "pools": [],
+  "status": "success",
+  "type": "send"
+}

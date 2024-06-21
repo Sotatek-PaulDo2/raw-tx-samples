@@ -1,0 +1,218 @@
+{
+    "hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+    "nonce": "12",
+    "transaction_index": "111",
+    "from_address": "0xd91e98164cd31c358b4f36bc2ae6fa0fbd86a286",
+    "to_address": "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+    "value": "40000000000000000",
+    "gas": "186513",
+    "gas_price": "44036942382",
+    "input": "0x3593564c000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000656ec50b00000000000000000000000000000000000000000000000000000000000000020b080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000008e1bc9bf04000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000008e1bc9bf04000000000000000000000000000000000000000000000000000e81aacc0a519a755100000000000000000000000000000000000000000000000000000000000000a000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2000000000000000000000000120a3879da835a5af037bb2d1456bebd6b54d4ba",
+    "receipt_cumulative_gas_used": "10882686",
+    "receipt_gas_used": "127730",
+    "receipt_contract_address": null,
+    "receipt_root": null,
+    "receipt_status": "1",
+    "block_timestamp": "2023-12-05T06:27:23.000Z",
+    "block_number": "18718353",
+    "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+    "transfer_index": null,
+    "logs": [
+        {
+            "log_index": "347",
+            "transaction_hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+            "transaction_index": "111",
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "data": "0x000000000000000000000000000000000000000000000000008e1bc9bf040000",
+            "topic0": "0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c",
+            "topic1": "0x0000000000000000000000003fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+            "topic2": null,
+            "topic3": null,
+            "block_timestamp": "2023-12-05T06:27:23.000Z",
+            "block_number": "18718353",
+            "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+            "transfer_index": null,
+            "transaction_value": "40000000000000000",
+            "decoded_event": {
+                "signature": "Deposit(address,uint256)",
+                "label": "Deposit",
+                "type": "event",
+                "params": [
+                    {
+                        "name": "dst",
+                        "value": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+                        "type": "address"
+                    },
+                    {
+                        "name": "wad",
+                        "value": "40000000000000000",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        },
+        {
+            "log_index": "348",
+            "transaction_hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+            "transaction_index": "111",
+            "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+            "data": "0x000000000000000000000000000000000000000000000000008e1bc9bf040000",
+            "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "topic1": "0x0000000000000000000000003fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+            "topic2": "0x0000000000000000000000006490828bd87be38279a36f029f3b9af8b4e14b49",
+            "topic3": null,
+            "block_timestamp": "2023-12-05T06:27:23.000Z",
+            "block_number": "18718353",
+            "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+            "transfer_index": null,
+            "transaction_value": "40000000000000000",
+            "decoded_event": {
+                "signature": "Transfer(address,address,uint256)",
+                "label": "Transfer",
+                "type": "event",
+                "params": [
+                    {
+                        "name": "src",
+                        "value": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+                        "type": "address"
+                    },
+                    {
+                        "name": "dst",
+                        "value": "0x6490828Bd87Be38279A36F029f3b9Af8b4E14B49",
+                        "type": "address"
+                    },
+                    {
+                        "name": "wad",
+                        "value": "40000000000000000",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        },
+        {
+            "log_index": "349",
+            "transaction_hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+            "transaction_index": "111",
+            "address": "0x120a3879da835a5af037bb2d1456bebd6b54d4ba",
+            "data": "0x00000000000000000000000000000000000000000000000f3b59bca46f4894c9",
+            "topic0": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "topic1": "0x0000000000000000000000006490828bd87be38279a36f029f3b9af8b4e14b49",
+            "topic2": "0x000000000000000000000000d91e98164cd31c358b4f36bc2ae6fa0fbd86a286",
+            "topic3": null,
+            "block_timestamp": "2023-12-05T06:27:23.000Z",
+            "block_number": "18718353",
+            "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+            "transfer_index": null,
+            "transaction_value": "40000000000000000",
+            "decoded_event": {
+                "signature": "Transfer(address,address,uint256)",
+                "label": "Transfer",
+                "type": "event",
+                "params": [
+                    {
+                        "name": "src",
+                        "value": "0x6490828Bd87Be38279A36F029f3b9Af8b4E14B49",
+                        "type": "address"
+                    },
+                    {
+                        "name": "dst",
+                        "value": "0xD91E98164Cd31c358B4F36Bc2AE6fa0FBd86A286",
+                        "type": "address"
+                    },
+                    {
+                        "name": "wad",
+                        "value": "280977817841235956937",
+                        "type": "uint256"
+                    }
+                ]
+            }
+        },
+        {
+            "log_index": "350",
+            "transaction_hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+            "transaction_index": "111",
+            "address": "0x6490828bd87be38279a36f029f3b9af8b4e14b49",
+            "data": "0x000000000000000000000000000000000000000000025ae644fc60a0b40ad043000000000000000000000000000000000000000000000015e88df70b22f127ec",
+            "topic0": "0x1c411e9a96e071241c2f21f7726b17ae89e3cab4c78be50e062b03a9fffbbad1",
+            "topic1": null,
+            "topic2": null,
+            "topic3": null,
+            "block_timestamp": "2023-12-05T06:27:23.000Z",
+            "block_number": "18718353",
+            "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+            "transfer_index": null,
+            "transaction_value": "40000000000000000",
+            "decoded_event": {
+                "signature": "Sync(uint112,uint112)",
+                "label": "Sync",
+                "type": "event",
+                "params": [
+                    {
+                        "name": "reserve0",
+                        "value": "2847112344778811657343043",
+                        "type": "uint112"
+                    },
+                    {
+                        "name": "reserve1",
+                        "value": "404138946963618998252",
+                        "type": "uint112"
+                    }
+                ]
+            }
+        },
+        {
+            "log_index": "351",
+            "transaction_hash": "0x7b5e961d073d78a30083e27f4277fb93eecec97579fdd4c4be7f0fd3e6866424",
+            "transaction_index": "111",
+            "address": "0x6490828bd87be38279a36f029f3b9af8b4e14b49",
+            "data": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008e1bc9bf04000000000000000000000000000000000000000000000000000f3b59bca46f4894c90000000000000000000000000000000000000000000000000000000000000000",
+            "topic0": "0xd78ad95fa46c994b6551d0da85fc275fe613ce37657fb8d5e3d130840159d822",
+            "topic1": "0x0000000000000000000000003fc91a3afd70395cd496c647d5a6cc9d4b2b7fad",
+            "topic2": "0x000000000000000000000000d91e98164cd31c358b4f36bc2ae6fa0fbd86a286",
+            "topic3": null,
+            "block_timestamp": "2023-12-05T06:27:23.000Z",
+            "block_number": "18718353",
+            "block_hash": "0x79f117599f59690c4a24cbfc36a5d153f007056af9b3730bb855a5de9b61966b",
+            "transfer_index": null,
+            "transaction_value": "40000000000000000",
+            "decoded_event": {
+                "signature": "Swap(address,uint256,uint256,uint256,uint256,address)",
+                "label": "Swap",
+                "type": "event",
+                "params": [
+                    {
+                        "name": "sender",
+                        "value": "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD",
+                        "type": "address"
+                    },
+                    {
+                        "name": "amount0In",
+                        "value": "0",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "amount1In",
+                        "value": "40000000000000000",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "amount0Out",
+                        "value": "280977817841235956937",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "amount1Out",
+                        "value": "0",
+                        "type": "uint256"
+                    },
+                    {
+                        "name": "to",
+                        "value": "0xD91E98164Cd31c358B4F36Bc2AE6fa0FBd86A286",
+                        "type": "address"
+                    }
+                ]
+            }
+        }
+    ],
+    "decoded_call": null
+}

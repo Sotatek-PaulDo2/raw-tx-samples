@@ -1,0 +1,71 @@
+{
+  "hash": "0xfef245e23d3d5af876663d394ec59b4d5fc4a9ef129d189e8b549609d035507f",
+  "nonce": "484",
+  "transaction_index": "56",
+  "from_address": "0x03402e62e9be0eab6354532a3c2fd9ec8797588c",
+  "from_address_label": null,
+  "to_address": "0xb2ecfe4e4d61f8790bbb9de2d1259b9e2410cea5",
+  "to_address_label": null,
+  "value": "320000000000000000",
+  "gas": "170174",
+  "gas_price": "7819397987",
+  "receipt_cumulative_gas_used": "3720351",
+  "receipt_gas_used": "152801",
+  "receipt_status": "1",
+  "block_timestamp": "2024-05-01T06:42:23.000Z",
+  "block_number": "19773559",
+  "block_hash": "0xc5e9fc31915f7e35ac5ced5557ea2ba2d47a02e04b82383ec593b630e0da595f",
+  "nft_transfers": [
+    {
+      "log_index": 69,
+      "value": "320000000000000000",
+      "contract_type": "ERC721",
+      "transaction_type": "Single",
+      "token_address": "0x7b563a232c197bae03089852a9cfd65395232861",
+      "token_id": "1420",
+      "from_address": "0xa69833b9fda816f1bfc79517e7932e64708df0dd",
+      "from_address_label": null,
+      "to_address": "0x03402e62e9be0eab6354532a3c2fd9ec8797588c",
+      "to_address_label": null,
+      "amount": "1",
+      "operator": null,
+      "possible_spam": false,
+      "verified_collection": false,
+      "direction": "receive"
+    }
+  ],
+  "erc20_transfers": [],
+  "method_label": null,
+  "native_transfers": [
+    {
+      "from_address": "0x03402e62e9be0eab6354532a3c2fd9ec8797588c",
+      "from_address_label": null,
+      "to_address": "0xb2ecfe4e4d61f8790bbb9de2d1259b9e2410cea5",
+      "to_address_label": null,
+      "value": "320000000000000000",
+      "value_formatted": "0.32",
+      "direction": "send",
+      "internal_transaction": false,
+      "token_symbol": "ETH",
+      "token_logo": "https://cdn.moralis.io/eth/0x.png"
+    }
+  ],
+  "summary": "Purchased 1 NFT",
+  "possible_spam": false,
+  "category": "nft purchase",
+  "internal_transactions": [
+    {
+      "transaction_hash": "0xfef245e23d3d5af876663d394ec59b4d5fc4a9ef129d189e8b549609d035507f",
+      "block_number": 19773559,
+      "block_hash": "0xc5e9fc31915f7e35ac5ced5557ea2ba2d47a02e04b82383ec593b630e0da595f",
+      "type": "CALL",
+      "from": "0xb2ecfe4e4d61f8790bbb9de2d1259b9e2410cea5",
+      "to": "0xa69833b9fda816f1bfc79517e7932e64708df0dd",
+      "value": "320000000000000000",
+      "gas": "10263",
+      "gas_used": "0",
+      "input": "0x",
+      "output": "0x"
+    }
+  ]
+}

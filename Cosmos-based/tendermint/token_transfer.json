@@ -1,0 +1,192 @@
+{
+  "hash": "82242C563CAB77C9E151BF351CEB4A98FE0917E1C15526236E894353041065CC",
+  "height": "20858791",
+  "index": 3,
+  "tx_result": {
+    "code": 0,
+    "data": "EiYKJC9jb3Ntb3MuYmFuay52MWJldGExLk1zZ1NlbmRSZXNwb25zZQ==",
+    "log": "[{\"msg_index\":0,\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"/cosmos.bank.v1beta1.MsgSend\"},{\"key\":\"sender\",\"value\":\"cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa\"},{\"key\":\"module\",\"value\":\"bank\"}]},{\"type\":\"coin_spent\",\"attributes\":[{\"key\":\"spender\",\"value\":\"cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa\"},{\"key\":\"amount\",\"value\":\"199475uatom\"}]},{\"type\":\"coin_received\",\"attributes\":[{\"key\":\"receiver\",\"value\":\"cosmos1dum8r8xdxwcjfkczjd24kkgdnmuaxtlk2xzmav\"},{\"key\":\"amount\",\"value\":\"199475uatom\"}]},{\"type\":\"transfer\",\"attributes\":[{\"key\":\"recipient\",\"value\":\"cosmos1dum8r8xdxwcjfkczjd24kkgdnmuaxtlk2xzmav\"},{\"key\":\"sender\",\"value\":\"cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa\"},{\"key\":\"amount\",\"value\":\"199475uatom\"}]},{\"type\":\"message\",\"attributes\":[{\"key\":\"sender\",\"value\":\"cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa\"}]}]}]",
+    "info": "",
+    "gas_wanted": "200000",
+    "gas_used": "63036",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1000uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "cosmos17xpfvakm2amg962yls6f84z3kell8c5lserqta",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1000uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "cosmos17xpfvakm2amg962yls6f84z3kell8c5lserqta",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "1000uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "fee",
+            "value": "1000uatom",
+            "index": true
+          },
+          {
+            "key": "fee_payer",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "acc_seq",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa/20638",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "signature",
+            "value": "gDVu3k2Gj6G1BCfra9PvbE+QWuD1g7MyTUaT62UT1zNFDatDUqGFlO1Z1wcrxAI+jw+PokDaJbrQQp22jbPU8g==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "action",
+            "value": "/cosmos.bank.v1beta1.MsgSend",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          },
+          {
+            "key": "module",
+            "value": "bank",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "spender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "199475uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "receiver",
+            "value": "cosmos1dum8r8xdxwcjfkczjd24kkgdnmuaxtlk2xzmav",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "199475uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "recipient",
+            "value": "cosmos1dum8r8xdxwcjfkczjd24kkgdnmuaxtlk2xzmav",
+            "index": true
+          },
+          {
+            "key": "sender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          },
+          {
+            "key": "amount",
+            "value": "199475uatom",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "sender",
+            "value": "cosmos1g6psfwt4ehw06m0j60ghrlwgv2q69yq40fnwwa",
+            "index": true
+          }
+        ]
+      }
+    ],
+    "codespace": ""
+  },
+  "tx": "CrQBCo8BChwvY29zbW9zLmJhbmsudjFiZXRhMS5Nc2dTZW5kEm8KLWNvc21vczFnNnBzZnd0NGVodzA2bTBqNjBnaHJsd2d2MnE2OXlxNDBmbnd3YRItY29zbW9zMWR1bThyOHhkeHdjamZrY3pqZDI0a2tnZG5tdWF4dGxrMnh6bWF2Gg8KBXVhdG9tEgYxOTk0NzUSIDBhNDRkMjJmNzgwNTQzY2M4Zjc0NzU1NjU0NTkwMTQ0EmkKUgpGCh8vY29zbW9zLmNyeXB0by5zZWNwMjU2azEuUHViS2V5EiMKIQMyG/bLYxXSHXqWlu+B7mUOp9vO7lk7/232+x2tcokANRIECgIIARieoQESEwoNCgV1YXRvbRIEMTAwMBDAmgwaQIA1bt5Nho+htQQn62vT72xPkFrg9YOzMk1Gk+tlE9czRQ2rQ1KhhZTtWdcHK8QCPo8Pj6JA2iW60EKdto2z1PI="
+}

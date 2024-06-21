@@ -1,0 +1,162 @@
+{
+  "hash": "3892F3B8761C91231141F06544F02A3D003340F81C2699CC75795CEB11A5ABCF",
+  "height": "18045824",
+  "index": 0,
+  "tx_result": {
+    "code": 0,
+    "data": "EioKKC9jaGFpbm1haW4ubmZ0LnYxLk1zZ1RyYW5zZmVyTkZUUmVzcG9uc2U=",
+    "log": "[{\"msg_index\":0,\"events\":[{\"type\":\"message\",\"attributes\":[{\"key\":\"action\",\"value\":\"/chainmain.nft.v1.MsgTransferNFT\"},{\"key\":\"module\",\"value\":\"nft\"},{\"key\":\"sender\",\"value\":\"cro1ce2tqyxp9gzdfw44ux9wehf0danjenhr07qjys\"}]},{\"type\":\"transfer_nft\",\"attributes\":[{\"key\":\"token_id\",\"value\":\"edition1\"},{\"key\":\"denom_id\",\"value\":\"a174a14f862387938d2b7810448c62290\"},{\"key\":\"sender\",\"value\":\"cro1ce2tqyxp9gzdfw44ux9wehf0danjenhr07qjys\"},{\"key\":\"recipient\",\"value\":\"cro1jww8nfja4ccaak94yr84wj3qjqu5f2je9eelmm\"}]}]}]",
+    "info": "",
+    "gas_wanted": "500000",
+    "gas_used": "109640",
+    "events": [
+      {
+        "type": "coin_spent",
+        "attributes": [
+          {
+            "key": "c3BlbmRlcg==",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          },
+          {
+            "key": "YW1vdW50",
+            "value": "MTI1MDBiYXNlY3Jv",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "coin_received",
+        "attributes": [
+          {
+            "key": "cmVjZWl2ZXI=",
+            "value": "Y3JvMTd4cGZ2YWttMmFtZzk2MnlsczZmODR6M2tlbGw4YzVsZ3p0ZWh2",
+            "index": true
+          },
+          {
+            "key": "YW1vdW50",
+            "value": "MTI1MDBiYXNlY3Jv",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer",
+        "attributes": [
+          {
+            "key": "cmVjaXBpZW50",
+            "value": "Y3JvMTd4cGZ2YWttMmFtZzk2MnlsczZmODR6M2tlbGw4YzVsZ3p0ZWh2",
+            "index": true
+          },
+          {
+            "key": "c2VuZGVy",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          },
+          {
+            "key": "YW1vdW50",
+            "value": "MTI1MDBiYXNlY3Jv",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "c2VuZGVy",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "ZmVl",
+            "value": "MTI1MDBiYXNlY3Jv",
+            "index": true
+          },
+          {
+            "key": "ZmVlX3BheWVy",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "YWNjX3NlcQ==",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlzLzEyODQz",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "tx",
+        "attributes": [
+          {
+            "key": "c2lnbmF0dXJl",
+            "value": "VE53QzdMU2NJUmhRWnZJakhQejQzQjQ3M2pFWitteDJQWHJGZmM4Z0VQcDZvMDhkU1lUbGt4MzA3elNLZXJBcEhxRVFUblJlS0o1MTJiSDd2dVBqVFE9PQ==",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "YWN0aW9u",
+            "value": "L2NoYWlubWFpbi5uZnQudjEuTXNnVHJhbnNmZXJORlQ=",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "transfer_nft",
+        "attributes": [
+          {
+            "key": "dG9rZW5faWQ=",
+            "value": "ZWRpdGlvbjE=",
+            "index": true
+          },
+          {
+            "key": "ZGVub21faWQ=",
+            "value": "YTE3NGExNGY4NjIzODc5MzhkMmI3ODEwNDQ4YzYyMjkw",
+            "index": true
+          },
+          {
+            "key": "c2VuZGVy",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          },
+          {
+            "key": "cmVjaXBpZW50",
+            "value": "Y3JvMWp3dzhuZmphNGNjYWFrOTR5cjg0d2ozcWpxdTVmMmplOWVlbG1t",
+            "index": true
+          }
+        ]
+      },
+      {
+        "type": "message",
+        "attributes": [
+          {
+            "key": "bW9kdWxl",
+            "value": "bmZ0",
+            "index": true
+          },
+          {
+            "key": "c2VuZGVy",
+            "value": "Y3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlz",
+            "index": true
+          }
+        ]
+      }
+    ],
+    "codespace": ""
+  },
+  "tx": "Cq0BCqoBCiAvY2hhaW5tYWluLm5mdC52MS5Nc2dUcmFuc2Zlck5GVBKFAQoIZWRpdGlvbjESIWExNzRhMTRmODYyMzg3OTM4ZDJiNzgxMDQ0OGM2MjI5MBoqY3JvMWNlMnRxeXhwOWd6ZGZ3NDR1eDl3ZWhmMGRhbmplbmhyMDdxanlzIipjcm8xand3OG5mamE0Y2NhYWs5NHlyODR3ajNxanF1NWYyamU5ZWVsbW0SawpRCkYKHy9jb3Ntb3MuY3J5cHRvLnNlY3AyNTZrMS5QdWJLZXkSIwohAh8DKI/1WPiYwXlaqJDLks4h/DDmyC6rgS1iE3YKIeBuEgQKAggBGKtkEhYKEAoHYmFzZWNybxIFMTI1MDAQoMIeGkBM3ALstJwhGFBm8iMc/PjcHjveMRn6bHY9esV9zyAQ+nqjTx1JhOWTHfTvNIp6sCkeoRBOdF4onnXZsfu+4+NN"
+}

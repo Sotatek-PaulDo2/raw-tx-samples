@@ -1,0 +1,23 @@
+{
+  "date": "1713631322623991600",
+  "height": "15628359",
+  "in": [
+      {
+          "address": "bc1qcxssye4j6730h7ehgega3gyykkuwgdgmmpu62n",
+          "coins": [
+              {
+                  "amount": "100000",
+                  "asset": "BTC.BTC"
+              }
+          ],
+          "txID": "725FE044D361005958B9D04285EE89DC2DA66CD58008652F056E872D39C78CD1"
+      }
+  ],
+  "metadata": {},
+  "out": [],
+  "pools": [
+      "BTC.BTC"
+  ],
+  "status": "success",
+  "type": "donate"
+}

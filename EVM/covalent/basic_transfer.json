@@ -1,0 +1,37 @@
+{
+  "block_signed_at": "2024-04-16T11:00:47Z",
+  "block_height": 118833235,
+  "block_hash": "0xbfd1ba025b073c09ed8d9a0283d138ea7a9ca41ad4b1813386b8bcfe1f5329ae",
+  "tx_hash": "0xa5f780b026cf5bdb56ca115d9aee5d5b7227f6ec5bf6c5847a752dbe48a77291",
+  "tx_offset": 20,
+  "successful": true,
+  "miner_address": "0x4200000000000000000000000000000000000011",
+  "from_address": "0xccce731d88f7e634f3233478bfe25c6d31a3ab14",
+  "from_address_label": null,
+  "to_address": "0x3176d5c401a760b51e45dc52c231203113b7fb0e",
+  "to_address_label": null,
+  "value": "330000000000000",
+  "value_quote": 1.00764066442265,
+  "pretty_value_quote": "$1.01",
+  "gas_metadata": {
+    "contract_decimals": 18,
+    "contract_name": "Ether",
+    "contract_ticker_symbol": "ETH",
+    "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "supports_erc": [],
+    "logo_url": "https://www.datocms-assets.com/86369/1670347457-optimism-icon-white.svg"
+  },
+  "gas_offered": 21000,
+  "gas_spent": 21000,
+  "gas_price": 61864170,
+  "fees_paid": "1326076796277",
+  "gas_quote": 0.00396689066853902,
+  "pretty_gas_quote": "$0.00",
+  "gas_quote_rate": 3053.45655885653,
+  "explorers": [
+    {
+      "label": null,
+      "url": "https://optimistic.etherscan.io/tx/0xa5f780b026cf5bdb56ca115d9aee5d5b7227f6ec5bf6c5847a752dbe48a77291"
+    }
+  ]
+}

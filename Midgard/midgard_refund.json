@@ -1,0 +1,47 @@
+{
+  "date": "1718338655010404121",
+  "height": "16397132",
+  "in": [
+      {
+          "address": "thor166n4w5039meulfa3p6ydg60ve6ueac7tlt0jws",
+          "coins": [
+              {
+                  "amount": "56102000",
+                  "asset": "ETH/ETH"
+              }
+          ],
+          "txID": "9E6A6E6CB6834CA8707DEAB48902CAB65A65CD718459A75E8E190CC8C5AF0EAD"
+      }
+  ],
+  "metadata": {
+      "refund": {
+          "affiliateAddress": "",
+          "affiliateFee": "0",
+          "memo": "SWAP:BCH/BCH:thor166n4w5039meulfa3p6ydg60ve6ueac7tlt0jws:452057155/0/0",
+          "networkFees": [
+              {
+                  "amount": "2745",
+                  "asset": "ETH/ETH"
+              }
+          ],
+          "reason": "fail to add outbound tx: 2 errors occurred:\n\t* internal error\n\t* outbound amount does not meet requirements (452051961/452057155)\n\n",
+          "txType": "unknown"
+      }
+  },
+  "out": [
+      {
+          "address": "thor166n4w5039meulfa3p6ydg60ve6ueac7tlt0jws",
+          "coins": [
+              {
+                  "amount": "56099255",
+                  "asset": "ETH/ETH"
+              }
+          ],
+          "height": "16397132",
+          "txID": ""
+      }
+  ],
+  "pools": [],
+  "status": "success",
+  "type": "refund"
+}

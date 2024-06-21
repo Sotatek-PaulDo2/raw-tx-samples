@@ -1,0 +1,265 @@
+{
+  "block_signed_at": "2024-04-23T10:23:43Z",
+  "block_height": 119134523,
+  "block_hash": "0xc86455100348eafc273e0ebb8ed93b5d14278e1b128f9f4c6e9f0100d7f5e480",
+  "tx_hash": "0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf",
+  "tx_offset": 15,
+  "successful": true,
+  "miner_address": "0x4200000000000000000000000000000000000011",
+  "from_address": "0xb9258ac3eaae3b49317ce3991aff8e3e33abddb8",
+  "from_address_label": null,
+  "to_address": "0xe592427a0aece92de3edee1f18e0157c05861564",
+  "to_address_label": null,
+  "value": "0",
+  "value_quote": 0,
+  "pretty_value_quote": "$0.00",
+  "gas_metadata": {
+    "contract_decimals": 18,
+    "contract_name": "Ether",
+    "contract_ticker_symbol": "ETH",
+    "contract_address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "supports_erc": [],
+    "logo_url": "https://www.datocms-assets.com/86369/1670347457-optimism-icon-white.svg"
+  },
+  "gas_offered": 2000000,
+  "gas_spent": 112885,
+  "gas_price": 39890164,
+  "fees_paid": "4561056322167",
+  "gas_quote": 0.0143113461657763,
+  "pretty_gas_quote": "$0.01",
+  "gas_quote_rate": 3178.17954010849,
+  "explorers": [
+    {
+      "label": null,
+      "url": "https://optimistic.etherscan.io/tx/0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf"
+    }
+  ],
+  "log_events": [
+    {
+      "block_signed_at": "2024-04-23T10:23:43Z",
+      "block_height": 119134523,
+      "tx_offset": 15,
+      "log_offset": 54,
+      "tx_hash": "0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf",
+      "raw_log_topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x00000000000000000000000025fbbe89c4d851b5091f7b08900ff9b50980f805",
+        "0x000000000000000000000000b9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+      ],
+      "sender_contract_decimals": 18,
+      "sender_name": "DexToro",
+      "sender_contract_ticker_symbol": "DTORO",
+      "sender_address": "0x1cef2d62af4cd26673c7416957cc4ec619a696a7",
+      "sender_address_label": null,
+      "sender_logo_url": "https://logos.covalenthq.com/tokens/10/0x1cef2d62af4cd26673c7416957cc4ec619a696a7.png",
+      "supports_erc": [
+        "erc20"
+      ],
+      "sender_factory_address": null,
+      "raw_log_data": "0x000000000000000000000000000000000000000000000008b814754e9004ae59",
+      "decoded": {
+        "name": "Transfer",
+        "signature": "Transfer(indexed address from, indexed address to, uint256 value)",
+        "params": [
+          {
+            "name": "from",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0x25fbbe89c4d851b5091f7b08900ff9b50980f805"
+          },
+          {
+            "name": "to",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xb9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "indexed": false,
+            "decoded": true,
+            "value": "160838308372473491033"
+          }
+        ]
+      }
+    },
+    {
+      "block_signed_at": "2024-04-23T10:23:43Z",
+      "block_height": 119134523,
+      "tx_offset": 15,
+      "log_offset": 55,
+      "tx_hash": "0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf",
+      "raw_log_topics": [
+        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+        "0x000000000000000000000000b9258ac3eaae3b49317ce3991aff8e3e33abddb8",
+        "0x00000000000000000000000025fbbe89c4d851b5091f7b08900ff9b50980f805"
+      ],
+      "sender_contract_decimals": 6,
+      "sender_name": "Tether USD",
+      "sender_contract_ticker_symbol": "USDT",
+      "sender_address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "sender_address_label": null,
+      "sender_logo_url": "https://logos.covalenthq.com/tokens/10/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58.png",
+      "supports_erc": [
+        "erc20"
+      ],
+      "sender_factory_address": null,
+      "raw_log_data": "0x00000000000000000000000000000000000000000000000000000000048d53b0",
+      "decoded": {
+        "name": "Transfer",
+        "signature": "Transfer(indexed address from, indexed address to, uint256 value)",
+        "params": [
+          {
+            "name": "from",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xb9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+          },
+          {
+            "name": "to",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0x25fbbe89c4d851b5091f7b08900ff9b50980f805"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "indexed": false,
+            "decoded": true,
+            "value": "76370864"
+          }
+        ]
+      }
+    },
+    {
+      "block_signed_at": "2024-04-23T10:23:43Z",
+      "block_height": 119134523,
+      "tx_offset": 15,
+      "log_offset": 56,
+      "tx_hash": "0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf",
+      "raw_log_topics": [
+        "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+        "0x000000000000000000000000b9258ac3eaae3b49317ce3991aff8e3e33abddb8",
+        "0x000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564"
+      ],
+      "sender_contract_decimals": 6,
+      "sender_name": "Tether USD",
+      "sender_contract_ticker_symbol": "USDT",
+      "sender_address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
+      "sender_address_label": null,
+      "sender_logo_url": "https://logos.covalenthq.com/tokens/10/0x94b008aa00579c1307b0ef2c499ad98a8ce58e58.png",
+      "supports_erc": [
+        "erc20"
+      ],
+      "sender_factory_address": null,
+      "raw_log_data": "0x00000000000000000000000000000002f050fe9389439fffffffffff75bfeff8",
+      "decoded": {
+        "name": "Approval",
+        "signature": "Approval(indexed address owner, indexed address spender, uint256 value)",
+        "params": [
+          {
+            "name": "owner",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xb9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+          },
+          {
+            "name": "spender",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xe592427a0aece92de3edee1f18e0157c05861564"
+          },
+          {
+            "name": "value",
+            "type": "uint256",
+            "indexed": false,
+            "decoded": true,
+            "value": "999999999999999939709166371600859131896"
+          }
+        ]
+      }
+    },
+    {
+      "block_signed_at": "2024-04-23T10:23:43Z",
+      "block_height": 119134523,
+      "tx_offset": 15,
+      "log_offset": 57,
+      "tx_hash": "0x63f6dc2703ecb2863717d94253ea61a20439b7bcfb8fd1d826ccf42bff5a2abf",
+      "raw_log_topics": [
+        "0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67",
+        "0x000000000000000000000000e592427a0aece92de3edee1f18e0157c05861564",
+        "0x000000000000000000000000b9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+      ],
+      "sender_contract_decimals": null,
+      "sender_name": null,
+      "sender_contract_ticker_symbol": null,
+      "sender_address": "0x25fbbe89c4d851b5091f7b08900ff9b50980f805",
+      "sender_address_label": null,
+      "sender_logo_url": "https://logos.covalenthq.com/tokens/10/0x25fbbe89c4d851b5091f7b08900ff9b50980f805.png",
+      "supports_erc": [],
+      "sender_factory_address": null,
+      "raw_log_data": "0xfffffffffffffffffffffffffffffffffffffffffffffff747eb8ab16ffb51a700000000000000000000000000000000000000000000000000000000048d53b0000000000000000000000000000000000000000000000b82649fe91344f54695000000000000000000000000000000000000000000000000015c7be520f6a518fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffbab2a",
+      "decoded": {
+        "name": "Swap",
+        "signature": "Swap(indexed address sender, indexed address recipient, int256 amount0, int256 amount1, uint160 sqrtPriceX96, uint128 liquidity, int24 tick)",
+        "params": [
+          {
+            "name": "sender",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xe592427a0aece92de3edee1f18e0157c05861564"
+          },
+          {
+            "name": "recipient",
+            "type": "address",
+            "indexed": true,
+            "decoded": true,
+            "value": "0xb9258ac3eaae3b49317ce3991aff8e3e33abddb8"
+          },
+          {
+            "name": "amount0",
+            "type": "int256",
+            "indexed": false,
+            "decoded": true,
+            "value": "-160838308372473491033"
+          },
+          {
+            "name": "amount1",
+            "type": "int256",
+            "indexed": false,
+            "decoded": true,
+            "value": "76370864"
+          },
+          {
+            "name": "sqrtPriceX96",
+            "type": "uint160",
+            "indexed": false,
+            "decoded": true,
+            "value": "54351358811342399424149"
+          },
+          {
+            "name": "liquidity",
+            "type": "uint128",
+            "indexed": false,
+            "decoded": true,
+            "value": "98089515926070552"
+          },
+          {
+            "name": "tick",
+            "type": "int24",
+            "indexed": false,
+            "decoded": true,
+            "value": "-283862"
+          }
+        ]
+      }
+    }
+  ]
+}
